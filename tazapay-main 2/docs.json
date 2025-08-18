@@ -1,0 +1,212 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Tazapay",
+  "colors": {
+    "primary": "#0b3845",
+    "light": "#1c96c3",
+    "dark": "#0b3845"
+  },
+  "favicon": "/favicon.png",
+  "background": {
+    "decoration": "gradient"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Macan",
+      "source": "https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6740887c6ea387fab16c68c3_Macan%20Semibold.woff2",
+      "format": "woff2"
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
+  "appearance": {
+    "default": "light"
+  },
+  "navigation": {
+    "versions": [
+      {
+        "version": "v3",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Start Here",
+                "pages": [
+                  "docs/introduction-to-tazapay",
+                  {
+                    "group": "Setting Up Tazapay Account",
+                    "pages": [
+                     "docs/know-your-business-kyb-completion",
+                     "docs/managing-your-team"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Payouts",
+                "pages": [
+                  "docs/payout-overview",
+                  "docs/payout-object",
+                  "docs/payout-states"
+                ]
+              },
+              {
+                "group": "Checkout",
+                "pages": [
+                  "docs/checkout-intro",
+                  "docs/how-checkout-works"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API Overview",
+                "pages": [
+                  "reference/introduction",
+                  "reference/endpoints-environments",
+                  "reference/openapi-specification"
+                ]
+              },
+              {
+                "group": "Tazapay API",
+                "pages": [
+                  {
+                    "group": "Payouts",
+                    "pages": [
+                      "reference/create-a-payin",
+                      "reference/confirm-a-payin",
+                      "reference/fetching-a-payin",
+                      "reference/updating-a-payin",
+                      "reference/cancelling-a-payin"
+                    ]
+                  },
+                  {
+                    "group": "Checkout",
+                    "pages": [
+                      "reference/create-checkout-session",
+                      "reference/fetch-checkout",
+                      "reference/update-checkout",
+                      "reference/expire-checkout"
+                    ]
+                  },
+                  {
+                    "group": "Payout",
+                    "pages": [
+                      "reference/create-payout",
+                      "reference/fetch-payout"
+                    ]
+                  },
+                  {
+                    "group": "Escrow",
+                    "pages": [
+                      "reference/create-escrow",
+                      "reference/expire-escrow",
+                      "reference/fetch-escrow",
+                      "reference/update-escrow"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
+            "pages": [
+              "changelog",
+              "changelog/supported-file-types-for-uploads"
+            ]
+          },
+          {
+            "tab": "Country Coverage",
+            "href": "https://tazapay.com/payment-methods/"
+          }
+        ]
+      },
+      {
+        "version": "v1",
+        "tabs": [
+          {
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "Start Here",
+                "pages": [
+                  "v1/docs/getting-started",
+                  "v1/docs/creating-your-account"
+                ]
+              },
+              {
+                "group": "Checkout",
+                "pages": [
+                  "v1/docs/checkout-intro",
+                  "v1/docs/how-checkout-works"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "API Overview",
+                "pages": [
+                  "v1/reference/introduction",
+                  "v1/reference/endpoints-environments"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "FAQ",
+          "href": "https://tazapay.com/about-us",
+          "icon": "question"
+        },
+        {
+          "anchor": "Contact Us",
+          "href": "https://tazapay.com/contact-us",
+          "icon": "headset"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://tazapay.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://tazapay.com/"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Login",
+        "href": "https://dashboard.tazapay.com/?_gl=1*1dvwzr6*_gcl_au*MTI3Nzk1ODk2Mi4xNzQ5MjA4MTEy*_ga*OTYzODUxMTM4LjE3NDkyMDgxMTE.*_ga_19T6M4L6SX*czE3NDkyMTMxNzIkbzIkZzEkdDE3NDkyMTQ1NzAkajI1JGwwJGgw"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Contact Us",
+      "href": "https://tazapay.com/contact-us"
+    }
+  },
+  "footer": {
+    "socials": {
+      "facebook": "https://www.facebook.com/Tazapay",
+      "linkedin": "https://www.linkedin.com/company/tazapay"
+    }
+  }
+}
